@@ -2,28 +2,27 @@ require_relative "tree_node.rb"
 
 class KnightPathFinder
 
-    def initialize #(position)
+    def initialize(position)
         # @position = position
         # @grid = Array.new(8) { Array.new(8) }
-        self.root_node = PolyTreeNode.new(starting_pos, parent, )
+        @starting_pos = position
+        @root_node = PolyTreeNode.new(starting_pos)
         @considered_position = []
 
     end
 
-    def self.root_node
-
-    end
-
     def find_path
-
+        # add child
     end
 
-    def build_move_tree(self.root_node)
+    def build_move_tree()
 
     end
 
     def self.valid_moves(pos)
-        
+        r, c = pos
+        return false if r < 0 || r > 7
+        return false if c < 0 || c > 7
     end
 
     def new_move_positions(pos)

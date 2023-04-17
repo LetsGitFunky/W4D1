@@ -61,24 +61,6 @@ class PolyTreeNode
     end
 end
 
-# def inspect
-#     "#<Node:#{self.value}>"
-#   end
-
-    #          A
-    #         / \
-    #        B   C
-    #       / \ / \
-    #      D   E   F
-    #     / \   \
-    #    G   H   I
-
-    # self = [A] is A our target?
-    # if not iterate through its children
-    # no
-    # if a is not our target
-    #     unshift a.children self[0] = target? = [b,c] shift b, unshift b.children
-    #     if b is not our target
-    #         unshift b.children self[0] = [d,e,c]
-    #         is d
-    #         unshift d.children self = [g, h, d, e, c]
+root = starting_pos
+parent = current pos
+child is possible

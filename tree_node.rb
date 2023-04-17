@@ -61,6 +61,6 @@ class PolyTreeNode
     end
 end
 
-root = starting_pos
-parent = current pos
-child is possible
+# root = starting_pos
+# parent = current pos
+# child is possible
